@@ -1,15 +1,19 @@
 # 🕰️ Galería Onírica: Portal Surrealista
-Proyecto universitario de interfaz híbrida de Inteligencia Artificial para la generación de arte surrealista (Texto a Imagen y procesamiento de objetos físicos).
+Exhibición interactiva de arte surrealista impulsada por Inteligencia Artificial (Stable Diffusion XL), desarrollada en Python, Gradio y la API de Hugging Face.
 
-## 🚀 Cómo probar la aplicación
-Como este proyecto utiliza la API Serverless de Hugging Face y Gradio, puedes ejecutarlo en segundos sin saturar tu computadora:
+## 🏛️ Descripción del Proyecto
+Este proyecto simula una galería de arte contemporáneo en la web. Permite a los usuarios transmutar objetos cotidianos en obras de arte de estilo surrealista (inspiradas en Salvador Dalí y René Magritte) a través de dos modalidades:
+* **Sala I:** Generación conceptual mediante descripciones de texto.
+* **Sala II:** Transmutación inspirada en registros fotográficos.
 
-1. Haz clic en el botón superior de este repositorio para abrir el archivo `proyecto_surrealismo.ipynb` en **Google Colab**.
-2. Ve a [Hugging Face](https://huggingface.co/) y crea un Access Token gratuito con permisos de **Inference**.
-3. Pega tu token en la celda de código donde se indica `HF_TOKEN = "tu_token_aqui"`.
-4. Ejecuta las celdas del cuaderno y haz clic en el enlace público (`.live`) que genera Gradio para interactuar con la galería en vivo.
+## 🚀 Cómo probar la aplicación en vivo
+Como la aplicación está optimizada para ejecutarse de manera fluida y segura en la nube:
+1. Haz clic en el archivo **`tu_archivo.ipynb`** dentro de este repositorio.
+2. Haz clic en el botón superior que dice **"Open in Colab"** (Abrir en Google Colab).
+3. Ejecuta las celdas del cuaderno en orden (Play ▶). La interfaz web de la galería de museo se abrirá automáticamente con un enlace público (`.live`) para que puedas interactuar con ella al instante.
 
 ## 🛠️ Tecnologías utilizadas
-* Python
-* Gradio (Interfaz de usuario web)
-* Hugging Face Hub / Stable Diffusion XL (Modelos de IA generativa)
+* **Python**
+* **Gradio** (Diseño de interfaz de usuario web y estética CSS de museo)
+* **Hugging Face Hub / Stable Diffusion XL** (Modelos de IA generativa serverless)
+* **Google Colab Secrets** (Gestión segura de credenciales e infraestructura en la nube)
