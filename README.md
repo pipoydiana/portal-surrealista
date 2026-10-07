@@ -8,7 +8,7 @@ Este proyecto simula una galería de arte contemporáneo en la web. Permite a lo
 
 ## 🚀 Cómo probar la aplicación en vivo
 Como la aplicación está optimizada para ejecutarse de manera fluida y segura en la nube:
-1. Haz clic en el archivo **`tu_archivo.ipynb`** dentro de este repositorio.
+1. Haz clic en el archivo **`portal_surrealista.ipynb`** dentro de este repositorio.
 2. Haz clic en el botón superior que dice **"Open in Colab"** (Abrir en Google Colab).
 3. Ejecuta las celdas del cuaderno en orden (Play ▶). La interfaz web de la galería de museo se abrirá automáticamente con un enlace público (`.live`) para que puedas interactuar con ella al instante.
 
